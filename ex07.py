@@ -4,11 +4,13 @@ número."""
 
 n1 = int(input("Digite o primeiro número: "))
 n2 = int(input("Digite o segundo número: "))
+n3 = n1 - n2
 
 while n1 == n2:
-    print("Números iguas, digite novaente!")
+    print("Números iguais, digite novamente!")
     n1 = int(input("Digite o primeiro número: "))
     n2 = int(input("Digite o segundo número: "))
 
+print(f"A diferença entre {n1} e {n2} é de: {n3} ")
 
 
